@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    
+}
+
+.boasvindas{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 2000px;
+    border: 01px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-size: 15px;
+}
+
+p{
+    font-size: 12px;
+}
