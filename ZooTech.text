@@ -1,0 +1,27 @@
+O projeto será sobre um Zoológico virtual, Eficiente para o usuário e moderno, O site terá:
+  - Seção de boas-vindas ao usuário
+  - Seção de animais com fotos e descrições
+  - Seção de informações sobre o zoológico (história, missão, visão)
+  - Seção de contato com formulário para dúvidas e sugestões
+  - Rodapé com links para redes sociais e informações de copyright
+  - Design responsivo para dispositivos móveis
+  - Navegação intuitiva com menu claro e acessível
+  - fundo branco com designs modernos e cores modernas
+  - Animações suaves para transições entre seções
+  - sistema de busca para encontrar animais específicos
+  - videos curtos de alguns animais em destaque
+  - seção de notícias e eventos relacionados ao zoológico
+  - termos de uso e política de privacidade
+  - seção de perguntas frequentes (FAQ)
+  - ao selecionar um animal em especifico o usuário será redirecionado para uma página dedicada com mais detalhes, fotos e vídeos e artigos relacionados ao animal
+  - seção de loja online para venda de produtos relacionados ao zoológico
+  - seção de galeria de fotos com imagens dos animais e do zoológico
+  - seção de vídeos com clipes dos animais e do zoológico
+  - seção de notícias e atualizações sobre os animais e o zoológico
+
+projeto em partes:
+
+  INICIO:
+   - Cabeçalho com logo e menu de navegação e opções de login/cadastro e outras seções
+   - Página inicial com seção de boas-vindas e menu de navegação
+   - seção de informações sobre o zoológico (história, missão, visão)
