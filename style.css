@@ -8,10 +8,10 @@
     border: 1px solid black;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
-    position: fixed;   
-    top: 0;           
+    position: fixed;   /* Torna o menu fixo */
+    top: 0;            /* Fixa no topo */
     left: 0;
-    z-index: 1000;    
+    z-index: 1000;     /* Garante que fique acima dos outros elementos */
 }
 
 .menu > img{
@@ -31,7 +31,7 @@
 
 .menu a {
     text-decoration: none;
-    color: white; 
+    color: white; /* para garantir que fique branco */
 }
 
 .login{
