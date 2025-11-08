@@ -1,50 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
+
 <body>
     <div class="menu">
-        <img id="imagemScroll" src="https://th.bing.com/th/id/OIP.m1ssnupP9nlbatHOXx0ROAHaHa?w=184&h=184&c=7&r=0&o=5&pid=1.7" alt="Niggers🔥">
-            <div class="menu-sub">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-                <a href="services.html">Services</a>
-                <a href="products.html">Products</a>
-            </div> 
+        <img id="imagemScroll"
+            src="https://th.bing.com/th/id/OIP.m1ssnupP9nlbatHOXx0ROAHaHa?w=184&h=184&c=7&r=0&o=5&pid=1.7"
+            alt="Niggers🔥">
+        <div class="menu-sub">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="services.html">Services</a>
+            <a href="products.html">Products</a>
+        </div>
         <div class="login">
             <a href="login.html">Login</a>
             <a href="signup.html">Sign Up</a>
-        </div>   
+        </div>
     </div>
 
     <div class="Back-Image">
         <div class="boas-vindas">
-        <h2>- Desde 1945 -</h2>
-        <h1>____________________</h1>
-        <h1>ZooTech</h1>
-        <h1>____________________</h1>
-        <h2>Animais / Técnolgia / Produtos</h2>
+            <h2>- Desde 1945 -</h2>
+            <h1>____________________</h1>
+            <h1>ZooTech</h1>
+            <h1>____________________</h1>
+            <h2>Animais / Técnologia / Produtos</h2>
         </div>
-    </div>  
-    
-    <div>
+    </div>
+
+    <div class="info">
         <h1>O que é a ZooTech?</h1>
         <h1>ZooTech: Conectando Tradição e Inovação na Zootecnia</h1>
 
-<h3>Desde 1945, a ZooTech tem sido referência na evolução da zootecnia, nascida como um pequeno centro de estudos dedicado ao bem-estar animal e à produção sustentável. Ao longo das décadas, acompanhamos as transformações do campo e da ciência, incorporando tecnologias emergentes, práticas éticas e uma visão global. Em 2025, ZooTech se consolida como uma plataforma digital que une conhecimento técnico, inovação e comunidade.</h3>
+        <h3>Desde 1945, a ZooTech tem sido referência na evolução da zootecnia, nascida como um pequeno centro de
+            estudos dedicado ao bem-estar animal e à produção sustentável. Ao longo das décadas, acompanhamos as
+            transformações do campo e da ciência, incorporando tecnologias emergentes, práticas éticas e uma visão
+            global. Em 2025, ZooTech se consolida como uma plataforma digital que une conhecimento técnico, inovação e
+            comunidade.</h3>
 
-<h1>Missão</h1>
-<h3>Promover o desenvolvimento sustentável da zootecnia por meio da educação, tecnologia e conexão entre profissionais, estudantes e produtores, valorizando o bem-estar animal e a eficiência produtiva.</h3>
+        <h1>Missão</h1>
+        <h3>Promover o desenvolvimento sustentável da zootecnia por meio da educação, tecnologia e conexão entre
+            profissionais, estudantes e produtores, valorizando o bem-estar animal e a eficiência produtiva.</h3>
 
-<h1>Visão</h1> 
-<h3>Ser o principal hub digital da zootecnia na América Latina, impulsionando soluções inteligentes, colaborativas e éticas para os desafios do setor agropecuário do futuro.</h3>
+        <h1>Visão</h1>
+        <h3>Ser o principal hub digital da zootecnia na América Latina, impulsionando soluções inteligentes,
+            colaborativas e éticas para os desafios do setor agropecuário do futuro.</h3>
     </div>
-    
+
+    <div class="Zoo-Map">
+
+
+        <div class="literalumbotão"> 
+            <button class="trocar-zoo" onclick="mudarBioma(-1)">◀</button>
+            <div class="bioma-zoo1" id="biomaZoo">
+                <div id="zooText">
+                    Tundra
+                </div>
+                <div class="mapa">
+                <img id="zooImage" src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/05/congelado.jpg"
+                    alt="Mapa do Zoo">
+                                    <div class="animal" id="ursopolar">
+                    <img src="https://copilot.microsoft.com/th/id/BCO.58b4216c-e230-48c8-999c-8d7836877fb7.png"
+                        alt="Urso Polar">
+                </div>
+                <div class="animal" id="rena">
+                    <img src="https://copilot.microsoft.com/th/id/BCO.02d4d68e-9cf2-4b1a-bbd9-941d74735007.png"
+                        alt="rena">
+                </div>
+                <div class="animal" id="corujas">
+                    <img src="https://copilot.microsoft.com/th/id/BCO.022a7a36-f926-4d3f-bb53-4721f881c1e2.png"
+                        alt="corujas articas">
+                </div>
+                <div class="animal" id="lobo">
+                    <img src="https://copilot.microsoft.com/th/id/BCO.bfaeb1cd-9499-44e8-84d4-f78e6fd83d17.png"
+                        alt="lobo">
+                </div>
+                </div>
+
+            </div>
+            <button class="trocar-zoo" onclick="mudarBioma(1)">▶</button>
+        </div>
+    </div>
 </body>
+
 </html>
