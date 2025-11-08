@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .menu {
     font-size: 30px;
     display: flex;
@@ -8,13 +12,17 @@
     border: 1px solid black;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
-    position: fixed;   /* Torna o menu fixo */
-    top: 0;            /* Fixa no topo */
+    position: fixed;
+    /* Torna o menu fixo */
+    top: 0;
+    /* Fixa no topo */
     left: 0;
-    z-index: 3;     /* Garante que fique acima dos outros elementos */
+    z-index: 3;
+    /* Garante que fique acima dos outros elementos */
+    border: 1px solid white;
 }
 
-.menu > img{
+.menu>img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -22,7 +30,7 @@
     margin-top: 10px;
 }
 
-.menu-sub{
+.menu-sub {
     font-size: 20px;
     color: white;
     margin-right: 00px;
@@ -31,10 +39,11 @@
 
 .menu a {
     text-decoration: none;
-    color: white; /* para garantir que fique branco */
+    color: white;
+    /* para garantir que fique branco */
 }
 
-.login{
+.login {
     font-size: 20px;
     color: white;
     text-decoration: none;
@@ -44,10 +53,10 @@
 
 .Back-Image {
     width: 100%;
-    height:1000px;
+    height: 1000px;
     background-image: url('https://wallpaperaccess.com/full/1164218.jpg');
     background-size: 2000px;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     z-index: 1;
     position: relative;
 }
@@ -62,6 +71,79 @@
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     z-index: 2;
-    
+
     font-size: 30px;
+}
+
+.info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border-radius: 10px;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+    box-shadow: rgba(253, 252, 252, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.336) 0px -12px 30px, rgb(255, 255, 255) 0px 4px 6px, rgb(255, 255, 255) 0px 12px 13px, rgb(255, 255, 255) 0px -3px 5px;
+}
+
+.Zoo-Map {
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Zoo-Map img {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+#zooText {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.trocar-zoo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+
+.literalumbotão {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bioma-zoo1{
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+    align-items: center;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animal img{
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+
+}
+
+#zooImage{
+    position: absolute;
 }
