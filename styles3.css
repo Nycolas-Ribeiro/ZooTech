@@ -1,1 +1,91 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 150px; /* espaço para o menu fixo */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    position: fixed;
+    /* Torna o menu fixo */
+    top: 0;
+    /* Fixa no topo */
+    left: 0;
+    z-index: 3;
+    /* Garante que fique acima dos outros elementos */
+    border: 1px solid white;
+}
+
+.menu>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 00px;
+    margin-top: 10px;
+}
+
+.menu-sub {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    /* para garantir que fique branco */
+}
+
+.login {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-form {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contact-form button:hover {
+    background-color: #333;
+}
+
+.info{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+}
 
