@@ -1,1 +1,86 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 150px; /* espaço para o menu fixo */
+    font-family: 'Courier New', Courier, monospace;
+}
 
+.menu {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    position: fixed;
+    /* Torna o menu fixo */
+    top: 0;
+    /* Fixa no topo */
+    left: 0;
+    z-index: 3;
+    /* Garante que fique acima dos outros elementos */
+    border: 1px solid white;
+}
+
+.menu>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 00px;
+    margin-top: 10px;
+}
+
+.menu-sub {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    /* para garantir que fique branco */
+}
+
+.login {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.serviços{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.imgService{
+    height: 300px;
+    width: 450px;
+}
+
+.Serviço1{
+    height: 600px;
+    width: 600px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+}
+
+.Serviço1:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+}
+
+.serviços > h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
